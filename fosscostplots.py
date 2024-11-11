@@ -4,7 +4,7 @@ import sys
 import argparse
 
 parser = argparse.ArgumentParser("python fosscostplots.py")
-parser.add_argument("type", help='"Incremental Cost" or "Cumulative Cost"', type=str)
+parser.add_argument("--type", choices=['Incremental Cost', 'Cumulative Cost'], help='Select column to plot', type=str)
 args = parser.parse_args()
 try:
     df = pd.read_csv("input.csv")
