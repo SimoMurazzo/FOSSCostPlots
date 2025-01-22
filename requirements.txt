@@ -7,5 +7,5 @@ pytz==2024.2
 setuptools==75.6.0
 six==1.17.0
 tenacity==9.0.0
-tzdata==2024.2
+tzdata==2025.1
 wheel==0.45.1
